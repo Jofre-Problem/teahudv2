@@ -7,8 +7,12 @@ event MenuClose
 	
 	StopEvent AnimLock 0.0
 	RunEvent AnimLock 0.0
+	RunEventChild Mainmenuoverride MenuCMD 0.0
 }
-
+event MenuCMD	// consistent and good, workaround for xbox 360 ..... doesnt work...
+{
+		Firecommand 0.0 "engine hud_fastswitch 1"
+}		
 event AnimLock
 {
 	RunEvent RemoveChatBG 0.0
