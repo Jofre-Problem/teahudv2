@@ -79,13 +79,14 @@
 			"tall"			"f5"		//5 unit gap
 
 			"columns_count"	"4"
-			"inset_x"		"5"
+			"inset_x"		"8"
 			"inset_y"		"5"
 			"row_gap"		"4"
 
 			"ScrollBar"
 			{
-				"xpos"			"rs1-0"
+				"xpos"			"rs1"
+				"wide" "3"
 			}	
 			"friendpanel_kv"
 			{
@@ -487,7 +488,7 @@
 		"enabled"		"1"
 		"labelText"		"+"
 		"border_default"							"bg_lrtb"
-		"font"			"tea40"
+		"font"			"tea32"
 		"textinsetx"	"5"
 		"textinsety"	"-20"
 		"Command"		"opentf2options"
@@ -501,8 +502,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"35"
-			"tall"			"35"
+			"wide"			"32"
+			"tall"			"o1"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"

@@ -1451,7 +1451,7 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
+				"xpos"			"rs1"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.
@@ -2487,8 +2487,8 @@
 			"xpos"			"6"
 			"ypos"			"6"
 			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"12"
+			"tall"			"o1"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
